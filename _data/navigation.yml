@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Programma studenti
+  link: students_program
+- name: Contattaci
+  link: contacts
