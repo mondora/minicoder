@@ -5,8 +5,7 @@ body {
 }
 
 body {
-    @include serif-font;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: $base-font-family;
 }
 
 hr {
@@ -34,10 +33,14 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    font-family: $base-font-family;
 }
+h2, h3 {
+    font-weight: 700 !important;
+}
+
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -61,6 +64,10 @@ section {
 
 aside {
     padding: 50px 0;
+}
+
+.page-content {
+    margin: 150px 0;
 }
 
 .no-padding {
@@ -161,8 +168,8 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background: #B3E6FF url("../img/home/hero_bg.png") bottom center no-repeat;
-    background-size: contain;
+    background: #B3E6FF url("./../img/home/hero_bg.png") bottom center no-repeat;
+    background-size: cover  ;
     text-align: center;
     color: white;
     .header-content {
@@ -216,6 +223,7 @@ header {
 // Sections
 
 .section-heading {
+    font-weight: 700;
     margin-top: 0;
 }
 
@@ -327,6 +335,102 @@ header {
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
+}
+
+// Program
+#program {
+    padding: 0;
+}
+#program img.program-target {
+    width: 200px;
+}
+
+#program p.text-center {
+    width: 90%; 
+    display: inline-block;
+    min-height: 150px;
+}
+
+.program-box1 {
+    background-color: $theme-lighter;
+}
+
+.program-box2 {
+    background-color: $theme-light;
+}
+
+.box-inner {
+    padding: 60px;
+}
+
+// Contacts
+img.email {
+    width: 300px;
+    margin: 50px 0;
+}
+
+// Footer
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+#footer .copyright {
+    margin: 30px;
+    width: 50%;
+}
+
+#footer .copyright p {
+    margin: 0px;
+    font-size: 14px;
+    color: white;
+}
+
+#footer .contacts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer .contacts i {
+    font-size: 30px;
+    color: white;
+}
+
+#footer .contacts p {
+    font-size: 14px;
+    margin: 0px;
+    color: white;
+}
+
+#footer .contacts div.text-center {
+    margin: 0 40px;
+}
+
+@media screen and (max-width: 990px) {
+    #footer { display: block;
+        padding: 10px 0;
+        text-align: center;
+    }
+    #footer .copyright {
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #footer .contacts {
+        justify-content: center;
+        flex-direction: column;
+    }
+    #footer .contacts p {
+        padding-bottom: 30px;
+    }
+    #footer .contacts div.text-center {
+        margin: 0px;
+    }
 }
 
 // Extras

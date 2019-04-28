@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Programma Docenti
+title: Programma insegnanti
 ---
 
-# Programma Docenti
+## Programma per gli insegnanti
 
-## Tema 1
+### Tema 1
 
 Lorem ipsum dolor sit amet
 
 
-## Tema 2
+### Tema 2
 
-2 Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet

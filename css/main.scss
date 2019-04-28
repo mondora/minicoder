@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Example Defaults
-// $base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Libre Franklin', sans-serif;
 // $base-font-size:   16px;
 // $small-font-size:  $base-font-size * 0.875;
 // $base-line-height: 1.5;
@@ -36,6 +36,8 @@
 // variables.less
 $theme-primary: #0071BC;
 $theme-dark: #0051A8;
+$theme-lighter: #B3E6FF;
+$theme-light: #94C7EA;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "mixins", "base";
