@@ -9,25 +9,25 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="/"><img src="./img/logo_minicoder.svg" alt="Minicoder logo"
-          width="270" /></a>
+      <a class="navbar-brand page-scroll" href="{{ '/' | relative_url }}"><img
+          src="{{ '/img/logo_minicoder.svg' | relative_url }}" alt="Minicoder logo" width="270" /></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a class="page-scroll" href="/">Home</a>
+          <a class="page-scroll" href="{{ '/' | relative_url }}">Home</a>
         </li>
         <li>
-          <a class="page-scroll" href="students_program.html">Per gli studenti</a>
+          <a class="page-scroll" href="{{ '/students_program' | relative_url }}">Per gli studenti</a>
         </li>
         <li>
-          <a class="page-scroll" href="teachers_program.html">Per gli insegnanti</a>
+          <a class="page-scroll" href="{{ '/teachers_program' | relative_url }}">Per gli insegnanti</a>
         </li>
         </li>
         <li>
-          <a class="page-scroll" href="bookme.html">Prenota un incontro</a>
+          <a class="page-scroll" href="{{ '/bookme' | relative_url }}">Prenota un incontro</a>
         </li>
       </ul>
     </div>
