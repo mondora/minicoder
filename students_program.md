@@ -3,9 +3,19 @@ layout: default
 title: Programma Studenti
 ---
 
-## Programma per gli studenti
+## Percorsi per gli studenti
+I percorsi che abbiamo pensato sono frutto della collaborazione finora avuta con le varie scuole con le quali abbiamo lavorato. 
 
-### Creazione di tabelline e inserisci i risultati corretti
+| Progetto| Descrizione Progetto | Minicoders | Durata | Utilizzatori | 
+|---------|----------------------|------------|--------|--------------|
+| Tabelline | Quiz per imparare giocando le tabelline | 4° e 5° elementare | 3-5 lezioni | 3° elementare |
+
+
+---
+
+
+
+Creazione di tabelline e inserisci i risultati corretti
 
 Lorem ipsum dolor sit amet
 
