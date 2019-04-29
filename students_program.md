@@ -4,7 +4,11 @@ title: Programma Studenti
 ---
 
 ## Percorsi per gli studenti
-I percorsi che abbiamo pensato sono frutto della collaborazione avuta con gli studenti e le insegnanti delle varie scuole con cui abbiamo lavorato finora. Sono progetti spesso venuti dai ragazzi e sui quali si sono impegnati  
+I percorsi che abbiamo pensato sono frutto della collaborazione avuta con le insegnanti delle scuole con cui finora abbiamo lavorato. Sono progetti pensati dai ragazzi per i ragazzi in un circlo virtuoso in cui chi immagina e realizza il gioco, lo fa pensando all'uso che ne faranno gli utenti (compagni) delle classi inferiori. Questi ultimi utilizzandoli daranno gli spunti per migliorarlo e renderlo più utile possibile.
+A volte i percorsi hanno uno scopo didattico, altre un semplice scopo ludico, ma tutte le volte fanno sentire gli studenti parte attiva del progetto.
+In ogni lezione si affronta una serie di piccoli problemi che, una volta messi insieme aiutano a raggiungere lo scopo finale. Intanto si apprendono tecniche di programmazione e di risoluzione di problemi che saranno utili non solo per il prosieguo delle attività ma anche per il quotidiano della vita scolastica degli alunni.
+Ma non esiste un programma da seguire, nè un percorso obbligato.
+Una volta ottenuto un primo risultato sta alla volontà degli alunni e dell'insegnante se continuare a perfezionare il progetto o passare ad un altro argomento.
 
 | Progetto| Descrizione Progetto | Minicoders | Durata | Utilizzatori | Link al progetto |
 |---------|----------------------|------------|--------|--------------|------------------|
@@ -17,15 +21,7 @@ I percorsi che abbiamo pensato sono frutto della collaborazione avuta con gli st
 
 
 
-Creazione di tabelline e inserisci i risultati corretti
-
-Lorem ipsum dolor sit amet
 
 
-### Creazione di operazioni da risolvere con limite di tempo
 
-Lorem ipsum dolor sit amet
 
-### Creazione di giochi a pedine  in stile “gioco dell’oca”
-
-Lorem ipsum dolor sit amet
