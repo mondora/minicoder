@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+    <style>
+    .equal{  
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .panel {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    {% include nav.html %}
+
+    <div class="page-content text-center">
+
+        <div style="padding: 0 10% 0 10%">
+            {{ content }}
+        </div>
+
+        <div class="container" style="margin-top: 50px">
+            <div class="row">
+                {% for project in site.data.projects %}        
+                    <!-- by tag -->
+                    {% if project.audience == page.tag %}
+                        <div class="col-lg-4 col-md-6 text-center">
+                            <div class="panel panel-primary program-box2">
+                                <div class="panel-heading" style="background-color: #0071BC !important">
+                                    <h3 class="panel-title">{{ project.name }}</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <p>{{ project.description }}</p>
+                                    <div class="text-left">
+                                        <p><b>Classi: </b> {{ project.makers }} </p>
+                                        <p><b>Lezioni: </b> {{ project.lessons }} </p>
+                                    </div>
+                                </div>
+                                {% if project.link %}
+                                    <div class="panel-footer">{{ project.link }}</div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% include bookme.html %}
+    {% include footer.html %}
+    {% include scripts.html %}
+
+</body>
+
+</html>

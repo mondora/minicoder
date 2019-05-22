@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: projects
 title: Programma insegnanti
+tag: teachers
 ---
 
 ## Programma per gli insegnanti

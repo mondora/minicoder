@@ -10,3 +10,6 @@ github_username: mondora
 
 # Build settings
 markdown: kramdown
+
+projects:
+  data: projects
